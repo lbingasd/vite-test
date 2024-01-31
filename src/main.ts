@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './modules/router.js'
+import router from './router/router.js'
 import { createPinia } from 'pinia'
 import 'element-plus/theme-chalk/index.css';
 
