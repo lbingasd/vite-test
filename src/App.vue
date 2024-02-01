@@ -42,7 +42,7 @@ const main = useMain()
       <el-aside width="200px" style="background-color: aqua;">Aside</el-aside>
       <el-container >
         <el-header style="background-color: rgb(0, 60, 255);">Header</el-header>
-        <el-main style="background-color: rgb(255, 0, 212);">
+        <el-main>
           <button @click="increment">Count is: {{ count }}</button>
           <button @click="increment1">Count1 is: {{ count1 }}</button>
           <HelloWorld msg="Vite + Vue" />
