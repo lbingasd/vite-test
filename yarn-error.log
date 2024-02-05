@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js add vite-plugin-electron-renderer -D
+
+PATH: 
+  /usr/local/opt/libiconv/bin:/Users/libing/Documents/apache-maven-3.9.2/bin:/Users/libing/Documents/SelfCode/emsdk:/Users/libing/Documents/SelfCode/emsdk/.emscripten:/Users/libing/Documents/SelfCode/emsdk/node/12.9.1_64bit/bin/node:/usr/local/mysql/bin:/Users/libing/Documents/apache-maven-3.9.2/bin:http://npm.taobao.org/mirrors/electron/:/usr/local/php5.6/bin:/Users/libing/Documents/zybCode/livestream_cmake:/Applications/XAMPP/bin:/Users/libing/Arcanist/arcanist/bin:/Users/libing/.cargo/bin:/usr/local/bin:/usr/local/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Users/libing/.cargo/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/go/bin:/usr/local/opt/libiconv/bin:/Users/libing/Documents/apache-maven-3.9.2/bin:/Users/libing/Documents/SelfCode/emsdk:/Users/libing/Documents/SelfCode/emsdk/.emscripten:/Users/libing/Documents/SelfCode/emsdk/node/12.9.1_64bit/bin/node:/usr/local/mysql/bin:http://npm.taobao.org/mirrors/electron/:/usr/local/php5.6/bin:/Users/libing/Documents/zybCode/livestream_cmake:/Applications/XAMPP/bin:/Users/libing/Arcanist/arcanist/bin:/Users/libing/.cargo/bin:/usr/local/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  21.6.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/libing/Documents/GoCode/src/vite-test/node_modules/clone-response/node_modules'
+
+npm manifest: 
+  {
+    "name": "vit-test",
+    "private": true,
+    "version": "0.0.0",
+    "main": "dist-electron/index.js",
+    "scripts": {
+      "dev": "vite",
+      "build": "vue-tsc && vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "@element-plus/icons-vue": "^2.3.1",
+      "element-plus": "^2.5.3",
+      "path": "^0.12.7",
+      "pinia": "^2.1.7",
+      "unplugin-icons": "^0.18.3",
+      "unplugin-vue-components": "^0.26.0",
+      "vue": "^3.3.11"
+    },
+    "devDependencies": {
+      "@iconify-json/ep": "^1.1.14",
+      "@vitejs/plugin-vue": "^4.5.2",
+      "axios": "^1.6.7",
+      "electron": "^28.2.1",
+      "sass": "^1.70.0",
+      "typescript": "^5.2.2",
+      "unplugin-auto-import": "^0.17.5",
+      "unplugin-icons": "^0.18.3",
+      "vite": "^5.0.8",
+      "vue-router": "^4.2.5",
+      "vue-tsc": "^1.8.27"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -11,6 +11,9 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 
+import electron from "vite-plugin-electron";
+import renderer from "vite-plugin-electron-renderer";
+
 const pathSrc = path.resolve(__dirname, 'src')
 
 export default defineConfig({
@@ -21,6 +24,10 @@ export default defineConfig({
   },
   plugins: [
     Vue(),
+    electron({
+      entry: "electron/main/index.ts",
+    }),
+    renderer(),
     AutoImport({
       // 自动导入 Vue 相关函数，如：ref, reactive, toRef 等
       imports: [
